@@ -1,0 +1,455 @@
+.main-sidebar,
+.info-box-icon {
+    background-color: #51337A !important;
+}
+
+.navbar,
+.brand {
+    height: 80px;
+}
+
+.brand-link {
+    padding: 10% 0 10% 6%;
+    color: white !important;
+}
+
+.sidebar a {
+    color: white !important;
+}
+
+.tenis-image {
+    width: 100%;
+    height: 100%;
+}
+
+.background-images {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.tenis-image {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    position: absolute;
+    top: 38%;
+    left: 22%;
+    height: 25%;
+}
+
+.login-form,
+.forget-password-form,
+.change-password-form {
+    position: absolute;
+    top: 0;
+    left: 60%;
+    width: 30%;
+    bottom: 0;
+    opacity: 1;
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+}
+
+.login-form-content,
+.forget-password-form-content,
+.change-password-form-content {
+    position: absolute;
+    top: 32%;
+    width: 87%;
+    padding-left: 13%;
+}
+
+.form-heading {
+    color: white;
+    margin-bottom: 0px;
+}
+
+.form-description {
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.email-label,
+.password-label {
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+    margin-bottom: 1%;
+}
+
+.forgot-password {
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+    float: right;
+}
+
+.alert-dismissible li {
+    margin-left: -20%;
+}
+
+.info-box {
+    border: 1px solid #707070;
+    border-radius: 4px;
+    box-sizing: content-box;
+    padding: 0;
+}
+
+.nav-link.active,
+.show .nav-link {
+    background-color: #7654a3 !important;
+}
+
+.nav-treeview {
+    padding-left: 15% !important;
+}
+
+.nav-treeview .nav-link {
+    width: 100% !important;
+}
+
+.parent-content {
+    padding: 0 2%;
+    position: relative;
+}
+
+.content-wrapper {
+    background-color: white;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 0;
+}
+
+.fa-trash {
+    color: #B13333;
+}
+
+.user-image {
+    height: 2.1rem;
+    width: 2.1rem;
+    border-radius: 50%;
+}
+
+.table-user-name {
+    color: black;
+    padding: 3% 5%;
+}
+
+.pagination {
+    float: right;
+}
+
+.modal.right .modal-dialog {
+    position: fixed;
+    top: 12%;
+    margin: auto;
+    width: 320px;
+    height: 100%;
+    background: var(--white) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: -9px 3px 6px #0000000A;
+    opacity: 1;
+}
+
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.modal.right .modal-body {
+    padding: 15px 15px 80px;
+}
+
+.modal.right.fade .modal-dialog {
+    right: 0;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+.modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+.modal-header {
+    border-bottom: none !important;
+}
+
+.modal-header img {
+    width: 4rem;
+    box-shadow: none !important;
+}
+
+.user-info {
+    padding-top: 2%;
+}
+
+.user-name,
+.user-email,
+.user-mobile {
+    padding: 0px 0px 4% 8%;
+    margin: -8px 0px;
+}
+
+.manage-administration .nav-tabs .nav-item.show .nav-link,
+.right-sidebar-multistep-modal .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #7654A3;
+    background-color: #fff;
+}
+
+.manage-administration .nav-link.active,
+.right-sidebar-multistep-modal .nav-link.active,
+.show .nav-link {
+    background-color: white !important;
+    border-bottom: 2px solid #7654A3;
+}
+
+.right-sidebar-multistep-modal ul {
+    justify-content: space-between;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.manage-administration .nav-tabs .nav-link.active,
+.right-sidebar-multistep-modal .nav-tabs .nav-link.active {
+    /* border-color: none !important; */
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+.manage-administration a,
+.right-sidebar-multistep-modal a {
+    color: #7654A3 !important;
+}
+
+.modal.right .modal-body {
+    padding: 0 5px;
+}
+
+.info-box .info-box-icon {
+    height: 70px;
+    margin: 3% 3%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 200px;
+    padding: 10px 16px;
+    z-index: 1;
+    border: 1px solid #ECECEC;
+    border-radius: 9px;
+    top: 25px;
+}
+
+.info {
+    position: relative;
+}
+
+.user-detail {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 200px;
+    min-height: 80px;
+    border: 1px solid #ECECEC;
+    border-radius: 9px;
+    top: 39px;
+    right: 10px;
+    z-index: 1;
+}
+
+.user-detail a {
+    color: black !important;
+}
+
+.user-detail hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+
+}
+
+.user-filter {
+    padding-left: 50%;
+}
+
+.dropdown .btn {
+    padding: 0.2rem 0.4rem !important;
+}
+
+.alert-message {
+    text-align: center;
+    padding: 0 25%;
+}
+
+.user-panel .info {
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+}
+
+.user-name-role {
+    margin-top: -6%;
+}
+
+.user-panel,
+.user-panel .info {
+    overflow: visible !important;
+}
+
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
+}
+.pagination li {
+    background-color: #51337a;
+    border-radius: 7px;
+    margin: 0 2px;
+}
+.pagination .btn {
+    color: white;
+}
+
+
+.privacy-policy-title,
+.terms-conditions-title {
+    padding: 2% 0 0 2%;
+}
+
+.privacy-policy-btn,
+.terms-conditions-btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.note-editor .note-editing-area {
+    height: 200px;
+}
+
+.admin-record {
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 0 10% 0;
+}
+
+.admin-record div:nth-child(2) {
+    text-align: end;
+}
+
+.profile-detail {
+    border-bottom: 2px solid #51337a;
+    display: inline-block;
+    color: #51337a;
+    font-weight: 600;
+}
+
+.admin-profile-detail div:nth-child(2) {
+    padding-left: 25%;
+}
+
+.profile-card-body {
+    min-height: 500px;
+}
+
+.modal-content {
+    border-radius: 5px;
+}
+.modal-header {
+    border-bottom: 1px solid #e9ecef !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .parent-content {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+
+    .user-filter {
+        padding-left: 0 !important;
+    }
+
+    .user-filter .show-user {
+        padding-top: 4% !important;
+    }
+
+    .page-header h4 {
+        font-size: 1rem !important;
+    }
+
+    .page-header {
+        padding: 1% 2% !important;
+    }
+
+    .page-header .title {
+        padding-top: 4px !important;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    .user-filter {
+        padding-left: 13% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .title {
+        width: 26% !important;
+    }
+
+    .user-filter {
+        padding-left: 22% !important;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .title {
+        width: 17% !important;
+    }
+
+    .user-filter {
+        padding-left: 28% !important;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .user-filter {
+        padding-left: 47% !important;
+    }
+}
